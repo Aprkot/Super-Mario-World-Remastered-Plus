@@ -6,58 +6,59 @@ This is a fork of Super Mario World Remastered that adds some extra stuff to the
 
 
 
-\### Download: https://github.com/Boswer811/Super-Mario-World-Remastered-Plus/releases
+### Download: https://github.com/Boswer811/Super-Mario-World-Remastered-Plus/releases
 
 
 
-\# Requires an original SMW SNES ROM to play! (Not All-Stars +SMW or SMA2)
+# Requires an original SMW SNES ROM to play! (Not All-Stars +SMW or SMA2)
 
 
 
-\# This does NOT act as a replacement for the original Super Mario World. Super Mario World can be played on Nintendo Switch, through Nintendo Switch Online
+# This does NOT act as a replacement for the original Super Mario World. Super Mario World can be played on Nintendo Switch, through Nintendo Switch Online
 
 
 
-\## Features
+## Features
 
-\- Added option to swim faster when holding run button
+- Added option to swim faster when holding run button
 
-\- Added the ability to disable auto scrolling in the settings
+- Added the ability to disable auto scrolling in the settings
 
-\- Added option to climb faster
+- Added option to climb faster
 
-\- Added option to disable "Level Start" text
+- Added option to disable "Level Start" text
 
-\- added the ability to skip any cutscene including: The opening, Switch Palace Message, and the Castle Demolition cutscenes.
+- added the ability to skip any cutscene including: The opening, Switch Palace Message, and the Castle Demolition cutscenes.
 
-\- Sped up world map running speed
+- Sped up world map running speed
 
-\- Sped up level enter timer
+- Sped up level enter timer
 
-\- Fixed Buzzy Beetle not being able to kill enemies when holding shell
+- Fixed Buzzy Beetle not being able to kill enemies when holding shell
 
-\- Completely Open Source
-
-
-
-\## Downloading
+- Completely Open Source
 
 
 
-\### Windows/Linux
-
-1\. Go to the 'Releases' page
-
-2\. Look for the latest version
-
-3\. Download the .zip for your OS
-
-4\. Extract and run
-
-5\. Enjoy!
+## Downloading
 
 
 
-\### You are more than welcome to fork the repository and release new content / fixes as you wish.
+### Windows/Linux
+
+1. Go to the 'Releases' page
+
+2. Look for the latest version
+
+3. Download the .zip for your OS
+
+4. Extract and run
+
+5. Enjoy!
+
+
+
+### You are more than welcome to fork the repository and release new content / fixes as you wish.
+
 
 
