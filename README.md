@@ -28,7 +28,7 @@ This is a fork of Super Mario World Remastered that adds some extra stuff to the
 
 \- Added option to disable "Level Start" text
 
-\- Added the ability to skip the opening
+\- added the ability to skip any cutscene including: The opening, Switch Palace Message, and the Castle Demolition cutscenes.
 
 \- Sped up world map running speed
 
@@ -59,4 +59,5 @@ This is a fork of Super Mario World Remastered that adds some extra stuff to the
 
 
 \### You are more than welcome to fork the repository and release new content / fixes as you wish.
+
 
