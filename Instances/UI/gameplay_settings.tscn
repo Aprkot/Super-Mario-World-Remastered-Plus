@@ -115,3 +115,10 @@ node_title = "Auto Reserve Item Drop"
 selectable_values = [false, true]
 value_colours = Array[Color]([Color(1, 0.194376, 0.144153, 1), Color(0.345098, 0.972549, 0.345098, 1)])
 settings_value = "auto_item_drop"
+
+[node name="ShowLevelStartText" parent="VBoxContainer" instance=ExtResource("2_xgdys")]
+layout_mode = 2
+node_title = "Show Level Start Text"
+selectable_values = [false, true]
+value_colours = Array[Color]([Color(1, 0.194376, 0.144153, 1), Color(0.345098, 0.972549, 0.345098, 1)])
+settings_value = "show_level_start_text"
