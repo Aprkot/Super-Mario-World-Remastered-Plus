@@ -101,6 +101,7 @@ shader_parameter/angle = 36.404
 script = ExtResource("1_gx244")
 level_music = ExtResource("2_54k8t")
 camera_left_end_position = 5056
+camera_top_end_position = -415
 
 [node name="LevelBG" parent="." instance=ExtResource("2_3ifnd")]
 main_sprite_frames = SubResource("SpriteFrames_qi3f1")
@@ -123,11 +124,32 @@ centered = false
 position = Vector2(312, -136)
 direction = -1
 
+[node name="Platform2" parent="WindmillPlatform" index="1"]
+position = Vector2(41.5691, 24.0002)
+
 [node name="3" parent="WindmillPlatform/Platform2" index="2" instance=ExtResource("9_8uf7v")]
 position = Vector2(-1.56909, -24.0002)
 
+[node name="Platform3" parent="WindmillPlatform" index="2"]
+position = Vector2(-41.5692, 24)
+
+[node name="1" parent="WindmillPlatform/Chains/PlatformB" index="0"]
+position = Vector2(13.8564, 8.00007)
+
+[node name="2" parent="WindmillPlatform/Chains/PlatformB" index="1"]
+position = Vector2(27.7127, 16.0001)
+
+[node name="3" parent="WindmillPlatform/Chains/PlatformB" index="2"]
+position = Vector2(41.5691, 24.0002)
+
 [node name="1" parent="WindmillPlatform/Chains/PlatformC" index="0"]
 position = Vector2(-13.8564, 8.00001)
+
+[node name="2" parent="WindmillPlatform/Chains/PlatformC" index="1"]
+position = Vector2(-27.7128, 16)
+
+[node name="3" parent="WindmillPlatform/Chains/PlatformC" index="2"]
+position = Vector2(-41.5692, 24)
 
 [node name="WindmillPlatform2" parent="." instance=ExtResource("11_hwjb5")]
 position = Vector2(712, -184)
@@ -139,11 +161,29 @@ direction = -1
 [node name="2" parent="WindmillPlatform3/Platform1" index="2" instance=ExtResource("9_8uf7v")]
 position = Vector2(0, -24)
 
+[node name="Platform2" parent="WindmillPlatform3" index="1"]
+position = Vector2(41.5691, 24.0002)
+
+[node name="Platform3" parent="WindmillPlatform3" index="2"]
+position = Vector2(-41.5692, 24)
+
 [node name="1" parent="WindmillPlatform3/Chains/PlatformB" index="0"]
 position = Vector2(13.8563, 8.00006)
 
 [node name="2" parent="WindmillPlatform3/Chains/PlatformB" index="1"]
 position = Vector2(27.7128, 16.0001)
+
+[node name="3" parent="WindmillPlatform3/Chains/PlatformB" index="2"]
+position = Vector2(41.5691, 24.0002)
+
+[node name="1" parent="WindmillPlatform3/Chains/PlatformC" index="0"]
+position = Vector2(-13.8564, 8)
+
+[node name="2" parent="WindmillPlatform3/Chains/PlatformC" index="1"]
+position = Vector2(-27.7128, 16)
+
+[node name="3" parent="WindmillPlatform3/Chains/PlatformC" index="2"]
+position = Vector2(-41.5692, 24)
 
 [node name="WindmillPlatform4" parent="." instance=ExtResource("11_hwjb5")]
 position = Vector2(2056, -56)
@@ -177,6 +217,9 @@ position = Vector2(27.7129, 16.0001)
 
 [node name="3" parent="WindmillPlatform7/Chains/PlatformB" index="2"]
 position = Vector2(41.5693, 24.0002)
+
+[node name="1" parent="WindmillPlatform7/Chains/PlatformC" index="0"]
+position = Vector2(-13.8564, 8)
 
 [node name="2" parent="WindmillPlatform7/Chains/PlatformC" index="1"]
 position = Vector2(-27.7129, 16)

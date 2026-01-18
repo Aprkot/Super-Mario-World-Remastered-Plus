@@ -180,6 +180,7 @@ script = ExtResource("1_vl5qs")
 level_music = ExtResource("2_sha1t")
 autumn_music = ExtResource("2_sha1t")
 camera_left_end_position = 5568
+camera_top_end_position = -384
 
 [node name="StaticBG" parent="." instance=ExtResource("3_he3of")]
 main_texture = ExtResource("4_ehmb3")
@@ -194,7 +195,7 @@ shape = SubResource("RectangleShape2D_5utws")
 
 [node name="Player" parent="." instance=ExtResource("5_8qj7j")]
 material = SubResource("ShaderMaterial_y8q4v")
-position = Vector2(-40, 0)
+position = Vector2(-40, -1)
 
 [node name="GoalPost" parent="." instance=ExtResource("5_m0q1k")]
 position = Vector2(5288, 0)

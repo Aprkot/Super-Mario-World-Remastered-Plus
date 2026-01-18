@@ -1,7 +1,6 @@
 [gd_scene load_steps=30 format=3 uid="uid://d4lpddnushbgj"]
 
-[ext_resource type="Script" path="res://Scripts/Classes/LevelClass.gd" id="1_ycv6b"]
-[ext_resource type="Texture2D" uid="uid://b0e18kn306go7" path="res://Assets/LevelGuides/Level 00C.png" id="2_exsm2"]
+[ext_resource type="Script" uid="uid://k72dmo2yqq6n" path="res://Scripts/Classes/LevelClass.gd" id="1_ycv6b"]
 [ext_resource type="AudioStream" uid="uid://bri2wlqh6tcj3" path="res://Resources/MusicTracks/Athletic.tres" id="2_y5kuy"]
 [ext_resource type="AudioStream" uid="uid://b5c78m81esnfw" path="res://Resources/MusicTracks/AthleticAutumn.tres" id="3_80uuy"]
 [ext_resource type="PackedScene" uid="uid://cqw1qs0bt5s4o" path="res://Instances/Prefabs/Player.tscn" id="3_er68r"]
@@ -19,6 +18,7 @@
 [ext_resource type="PackedScene" uid="uid://cdbsvmplutv35" path="res://Instances/Prefabs/Items/cape_feather.tscn" id="21_3bypa"]
 [ext_resource type="PackedScene" uid="uid://cly5f6jt1cd28" path="res://Instances/Prefabs/Interactables/pipe_area.tscn" id="21_gc8jc"]
 [ext_resource type="PackedScene" uid="uid://ivdhiom08bys" path="res://Instances/Prefabs/Blocks/bonus_block.tscn" id="22_5i15n"]
+[ext_resource type="Script" uid="uid://cjafya4pegkow" path="res://Scripts/LevelGimicks/AutoScrollLevelNode.gd" id="22_7moim"]
 [ext_resource type="PackedScene" uid="uid://cge612j26d8ws" path="res://Instances/Prefabs/autumn_level_bg.tscn" id="22_85tto"]
 [ext_resource type="Texture2D" uid="uid://d0xffqsebrdfg" path="res://Assets/Sprites/Backgrounds/Overworld/Clouds2.png" id="23_qinx3"]
 [ext_resource type="PackedScene" uid="uid://d377acfcvpbhk" path="res://Instances/Prefabs/auto_scroll.tscn" id="24_wlsdd"]
@@ -78,17 +78,17 @@ script = ExtResource("1_ycv6b")
 level_music = ExtResource("2_y5kuy")
 autumn_music = ExtResource("3_80uuy")
 camera_left_end_position = 3008
+camera_top_end_position = -384
 
 [node name="Level00c" type="Sprite2D" parent="."]
 modulate = Color(0.466181, 0.466181, 0.466181, 1)
 z_index = -10
 position = Vector2(-64, -384)
-texture = ExtResource("2_exsm2")
 centered = false
 
 [node name="Player" parent="." instance=ExtResource("3_er68r")]
 material = SubResource("ShaderMaterial_1b02o")
-position = Vector2(-40, -48)
+position = Vector2(-39, -49)
 
 [node name="LevelBG" parent="." instance=ExtResource("4_t3yey")]
 main_texture = ExtResource("5_cp5u1")
@@ -492,8 +492,12 @@ fg_texture = ExtResource("23_qinx3")
 sky_colour = Color(1, 0.841836, 0.745136, 1)
 fg_scroll_speed = Vector2(16, 0)
 
-[node name="AutoScroll" parent="." node_paths=PackedStringArray("path") instance=ExtResource("24_wlsdd")]
-path = NodePath("../Path2D")
+[node name="AutoScrollLevelNode" type="Node" parent="."]
+script = ExtResource("22_7moim")
+metadata/_custom_type_script = "uid://cjafya4pegkow"
+
+[node name="AutoScroll" parent="AutoScrollLevelNode" node_paths=PackedStringArray("path") instance=ExtResource("24_wlsdd")]
+path = NodePath("../../Path2D")
 scroll_speed = 32.0
 
 [node name="Path2D" type="Path2D" parent="."]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=14 format=3 uid="uid://g67h3xtqav2t"]
 
-[ext_resource type="Script" path="res://Scripts/Classes/LevelClass.gd" id="1_7ebq3"]
+[ext_resource type="Script" uid="uid://k72dmo2yqq6n" path="res://Scripts/Classes/LevelClass.gd" id="1_7ebq3"]
 [ext_resource type="PackedScene" uid="uid://c1xol3wby2j0k" path="res://Instances/Prefabs/level_bg.tscn" id="2_wwlqh"]
 [ext_resource type="AudioStream" uid="uid://cwraguncjdkmy" path="res://Resources/MusicTracks/Overworld.tres" id="2_yu1k4"]
 [ext_resource type="Texture2D" uid="uid://b6nwdirwxpnso" path="res://Assets/Sprites/Backgrounds/Overworld/Rocks/Rock8.png" id="3_k87ab"]
@@ -59,6 +59,7 @@ size = Vector2(576, 64)
 script = ExtResource("1_7ebq3")
 level_music = ExtResource("2_yu1k4")
 camera_left_end_position = 960
+camera_top_end_position = -384
 
 [node name="LevelBG" parent="." instance=ExtResource("2_wwlqh")]
 main_texture = ExtResource("3_k87ab")

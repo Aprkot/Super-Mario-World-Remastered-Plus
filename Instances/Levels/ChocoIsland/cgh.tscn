@@ -1,8 +1,7 @@
-[gd_scene load_steps=22 format=3 uid="uid://0wio6i6y8qa2"]
+[gd_scene load_steps=21 format=3 uid="uid://0wio6i6y8qa2"]
 
-[ext_resource type="Script" path="res://Scripts/Classes/LevelClass.gd" id="1_xbytr"]
+[ext_resource type="Script" uid="uid://k72dmo2yqq6n" path="res://Scripts/Classes/LevelClass.gd" id="1_xbytr"]
 [ext_resource type="AudioStream" uid="uid://d2mfwfapwilqw" path="res://Resources/MusicTracks/GhostHouse.tres" id="2_8rjwm"]
-[ext_resource type="Texture2D" uid="uid://dhhokpkouy6rl" path="res://Assets/LevelGuides/Level 021.png" id="2_w8hww"]
 [ext_resource type="PackedScene" uid="uid://c1xol3wby2j0k" path="res://Instances/Prefabs/level_bg.tscn" id="3_iylob"]
 [ext_resource type="Texture2D" uid="uid://hsj1u4o8tcy2" path="res://Assets/Sprites/Backgrounds/GhostHouse/BG6.png" id="5_a0gj6"]
 [ext_resource type="PackedScene" uid="uid://cqw1qs0bt5s4o" path="res://Instances/Prefabs/Player.tscn" id="6_augl3"]
@@ -95,12 +94,12 @@ shader_parameter/angle = 36.404
 script = ExtResource("1_xbytr")
 level_music = ExtResource("2_8rjwm")
 camera_left_end_position = 3536
+camera_top_end_position = -240
 
 [node name="Level021" type="Sprite2D" parent="."]
 visible = false
 modulate = Color(0.41598, 0.41598, 0.41598, 1)
 position = Vector2(-64, -384)
-texture = ExtResource("2_w8hww")
 centered = false
 
 [node name="LevelBG" parent="." instance=ExtResource("3_iylob")]
@@ -117,136 +116,160 @@ layer_1/tile_data = PackedInt32Array(-130919, 327691, 0, -65383, 327691, 1, -130
 
 [node name="Eerie" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(432, -8)
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie2" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(448, -24)
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie3" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(856, -24)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie4" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(888, -24)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie5" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(920, -24)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie6" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(904, -56)
 wave = true
 wave_amount = 16
 starting_wave_direction = -1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie7" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(872, -56)
 wave = true
 wave_amount = 16
 starting_wave_direction = -1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie15" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2376, -88)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie16" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2408, -88)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie17" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2440, -88)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie20" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2808, -24)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie21" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2808, -104)
 wave = true
 wave_amount = 16
 starting_wave_direction = -1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie22" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2952, -24)
 wave_amount = 16
 starting_wave_direction = -1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie23" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2984, -72)
 wave_amount = 16
 starting_wave_direction = -1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie24" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(3320, -40)
 wave = true
 wave_amount = 16
 starting_wave_direction = -1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie18" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2424, -120)
 wave = true
 wave_amount = 16
 starting_wave_direction = -1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie19" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2392, -120)
 wave = true
 wave_amount = 16
 starting_wave_direction = -1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie8" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(1048, -40)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie9" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(1080, -40)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie11" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(1224, -8)
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie12" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(1224, -88)
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie13" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(1832, -24)
 wave = true
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie14" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(2184, -56)
 wave_amount = 16
 starting_wave_direction = 1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="Eerie10" parent="." instance=ExtResource("12_hxx0g")]
 position = Vector2(1064, -40)
 wave = true
 wave_amount = 16
 starting_wave_direction = -1
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"
 
 [node name="WanderingPit" parent="." instance=ExtResource("9_tgmv4")]
 position = Vector2(224, 8)

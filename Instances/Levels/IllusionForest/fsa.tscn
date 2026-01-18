@@ -68,37 +68,38 @@ size = Vector2(24, 145)
 script = ExtResource("1_vp112")
 level_music = ExtResource("2_buine")
 camera_left_end_position = 2496
+camera_top_end_position = -384
 
 [node name="LevelBG" parent="." instance=ExtResource("2_q4kdq")]
 main_texture = ExtResource("4_010uh")
 sky_colour = Color(0.847059, 0.972549, 0.847059, 1)
 
 [node name="SkyLayer" parent="LevelBG" index="0"]
-screen_offset = Vector2(0.94754, -734.832)
+screen_offset = Vector2(-1838.32, -1274.11)
 
 [node name="SkyColor" parent="LevelBG/SkyLayer" index="1"]
 color = Color(0.847059, 0.972549, 0.847059, 1)
 
 [node name="RainLayer" parent="LevelBG" index="1"]
-screen_offset = Vector2(0.94754, -734.832)
+screen_offset = Vector2(-1838.32, -1274.11)
 
 [node name="MainBGLayer" parent="LevelBG" index="2"]
-screen_offset = Vector2(0.94754, -734.832)
+screen_offset = Vector2(-1838.32, -1274.11)
 
 [node name="MainTexture" parent="LevelBG/MainBGLayer" index="0"]
 texture = ExtResource("4_010uh")
 
 [node name="MainFGLayer" parent="LevelBG" index="3"]
-screen_offset = Vector2(0.94754, -734.832)
+screen_offset = Vector2(-1838.32, -1274.11)
 
 [node name="FGLayer" parent="LevelBG" index="4"]
-screen_offset = Vector2(0.94754, -734.832)
+screen_offset = Vector2(-1838.32, -1274.11)
 
 [node name="SnowLayer" parent="LevelBG" index="8"]
-screen_offset = Vector2(0.94754, -734.832)
+screen_offset = Vector2(-1838.32, -1274.11)
 
 [node name="LeafLayer" parent="LevelBG" index="9"]
-screen_offset = Vector2(0.94754, -734.832)
+screen_offset = Vector2(-1838.32, -1274.11)
 
 [node name="Player" parent="." instance=ExtResource("5_h102d")]
 material = SubResource("ShaderMaterial_h0drj")

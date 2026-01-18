@@ -71,6 +71,7 @@ size = Vector2(1792, 426)
 script = ExtResource("1_4d3ik")
 level_music = ExtResource("2_adtkp")
 autumn_music = ExtResource("3_2ccng")
+camera_top_end_position = -384
 
 [node name="LevelBG" parent="." instance=ExtResource("4_cmh5k")]
 main_texture = ExtResource("5_itwyt")

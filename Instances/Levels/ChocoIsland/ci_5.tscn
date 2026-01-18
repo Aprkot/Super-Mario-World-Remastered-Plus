@@ -83,6 +83,7 @@ script = ExtResource("1_2q0l5")
 level_music = ExtResource("2_q1l3r")
 autumn_music = ExtResource("3_d0maq")
 camera_left_end_position = 4288
+camera_top_end_position = -384
 metadata/_edit_vertical_guides_ = [2360.0]
 
 [node name="LevelBG" parent="." instance=ExtResource("2_tyrw2")]

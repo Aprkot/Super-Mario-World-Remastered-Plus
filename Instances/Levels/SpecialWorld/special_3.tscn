@@ -1,13 +1,13 @@
 [gd_scene load_steps=94 format=3 uid="uid://mr50mcf10ixx"]
 
-[ext_resource type="Script" path="res://Scripts/Classes/LevelClass.gd" id="1_a08ed"]
+[ext_resource type="Script" uid="uid://k72dmo2yqq6n" path="res://Scripts/Classes/LevelClass.gd" id="1_a08ed"]
 [ext_resource type="AudioStream" uid="uid://cwraguncjdkmy" path="res://Resources/MusicTracks/Overworld.tres" id="2_eob3f"]
 [ext_resource type="AudioStream" uid="uid://dhdlx2rwva53m" path="res://Resources/MusicTracks/OverworldAutumnAlt.tres" id="3_oo0km"]
 [ext_resource type="PackedScene" uid="uid://c1xol3wby2j0k" path="res://Instances/Prefabs/level_bg.tscn" id="3_pqsv2"]
 [ext_resource type="PackedScene" uid="uid://cqw1qs0bt5s4o" path="res://Instances/Prefabs/Player.tscn" id="6_7ibis"]
 [ext_resource type="PackedScene" uid="uid://dwavjbyw0v12l" path="res://Instances/Prefabs/tile_map.tscn" id="8_on1ep"]
 [ext_resource type="PackedScene" uid="uid://gvnml5jau7jl" path="res://Instances/Prefabs/Interactables/rail.tscn" id="12_xjpfo"]
-[ext_resource type="Script" path="res://Scripts/LevelElements/on_off_rail_junction.gd" id="13_e4rv4"]
+[ext_resource type="Script" uid="uid://c81ymn4oj3lsr" path="res://Scripts/LevelElements/on_off_rail_junction.gd" id="13_e4rv4"]
 [ext_resource type="PackedScene" uid="uid://3dbp1bh377er" path="res://Instances/Prefabs/Blocks/question_block.tscn" id="15_afrma"]
 [ext_resource type="PackedScene" uid="uid://cdbsvmplutv35" path="res://Instances/Prefabs/Items/cape_feather.tscn" id="16_seehu"]
 [ext_resource type="PackedScene" uid="uid://cr3lh62esdmi" path="res://Instances/Prefabs/Blocks/on_off_switch.tscn" id="16_yd428"]
@@ -20,7 +20,7 @@
 [ext_resource type="PackedScene" uid="uid://cly5f6jt1cd28" path="res://Instances/Prefabs/Interactables/pipe_area.tscn" id="19_d5eqx"]
 [ext_resource type="PackedScene" uid="uid://64qxm11ocqr2" path="res://Instances/Prefabs/Enemies/rail_fuzzy.tscn" id="19_sw74k"]
 [ext_resource type="PackedScene" uid="uid://cai8wb5qay3j8" path="res://Instances/Prefabs/checkpoint_gate.tscn" id="20_2tmg2"]
-[ext_resource type="Script" path="res://Scripts/LevelGimicks/CoopLevelNode.gd" id="20_41lji"]
+[ext_resource type="Script" uid="uid://g5qjyqu38u4" path="res://Scripts/LevelGimicks/CoopLevelNode.gd" id="20_41lji"]
 [ext_resource type="PackedScene" uid="uid://cempplqp85non" path="res://Instances/Prefabs/Interactables/large_rail_platform.tscn" id="22_1100h"]
 [ext_resource type="PackedScene" uid="uid://dwcgvaei6jt52" path="res://Instances/Prefabs/Items/peach_coin.tscn" id="23_gdhea"]
 [ext_resource type="PackedScene" uid="uid://cge612j26d8ws" path="res://Instances/Prefabs/autumn_level_bg.tscn" id="24_pa7kn"]
@@ -467,6 +467,7 @@ script = ExtResource("1_a08ed")
 level_music = ExtResource("2_eob3f")
 autumn_music = ExtResource("3_oo0km")
 camera_left_end_position = 5056
+camera_top_end_position = -384
 
 [node name="LevelBG" parent="." instance=ExtResource("3_pqsv2")]
 sky_colour = Color(0.847059, 0.972549, 0.847059, 1)

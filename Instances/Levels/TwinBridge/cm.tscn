@@ -76,6 +76,7 @@ script = ExtResource("1_v63ej")
 level_music = ExtResource("2_isw0w")
 autumn_music = ExtResource("3_gpqx1")
 camera_left_end_position = 5336
+camera_top_end_position = -384
 
 [node name="Level010" type="Sprite2D" parent="."]
 modulate = Color(0.517184, 0.517184, 0.517184, 1)

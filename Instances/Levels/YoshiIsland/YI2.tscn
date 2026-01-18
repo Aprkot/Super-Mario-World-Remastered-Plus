@@ -78,6 +78,7 @@ script = ExtResource("1_ujl01")
 level_music = ExtResource("2_5xjfs")
 autumn_music = ExtResource("3_uy6ux")
 camera_left_end_position = 5088
+camera_top_end_position = -384
 
 [node name="Mario" parent="." instance=ExtResource("4_kjwbl")]
 show_behind_parent = true

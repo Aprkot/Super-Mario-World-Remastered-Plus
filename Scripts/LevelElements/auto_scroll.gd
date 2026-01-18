@@ -13,8 +13,6 @@ func _exit_tree() -> void:
 	GameManager.autoscrolling = false
 
 func _ready() -> void:
-	if SettingsManager.settings_file.disable_auto_scroll == true:
-		process_mode = Node.PROCESS_MODE_DISABLED
 	GameManager.autoscrolling = true
 	path_node.curve = path.curve.duplicate()
 	follow_joint.progress_ratio = 0

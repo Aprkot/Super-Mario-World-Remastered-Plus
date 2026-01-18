@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=3 uid="uid://ccmtcmmuktwg"]
 
-[ext_resource type="Script" path="res://Scripts/Classes/LevelClass.gd" id="1_o1ca0"]
+[ext_resource type="Script" uid="uid://k72dmo2yqq6n" path="res://Scripts/Classes/LevelClass.gd" id="1_o1ca0"]
 [ext_resource type="PackedScene" uid="uid://c1xol3wby2j0k" path="res://Instances/Prefabs/level_bg.tscn" id="2_blnge"]
 [ext_resource type="AudioStream" uid="uid://cwraguncjdkmy" path="res://Resources/MusicTracks/Overworld.tres" id="2_qgdce"]
 [ext_resource type="AudioStream" uid="uid://dhdlx2rwva53m" path="res://Resources/MusicTracks/OverworldAutumnAlt.tres" id="3_x12ph"]
@@ -56,6 +56,7 @@ script = ExtResource("1_o1ca0")
 level_music = ExtResource("2_qgdce")
 autumn_music = ExtResource("3_x12ph")
 camera_left_end_position = 1214
+camera_top_end_position = -384
 
 [node name="LevelBG" parent="." instance=ExtResource("2_blnge")]
 main_texture = ExtResource("4_d8h6m")

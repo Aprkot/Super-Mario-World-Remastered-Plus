@@ -1,6 +1,6 @@
 [gd_scene load_steps=25 format=3 uid="uid://t620b5qg3f1g"]
 
-[ext_resource type="Script" path="res://Scripts/Classes/LevelClass.gd" id="1_f5yfw"]
+[ext_resource type="Script" uid="uid://k72dmo2yqq6n" path="res://Scripts/Classes/LevelClass.gd" id="1_f5yfw"]
 [ext_resource type="AudioStream" uid="uid://bri2wlqh6tcj3" path="res://Resources/MusicTracks/Athletic.tres" id="2_8mqfk"]
 [ext_resource type="PackedScene" uid="uid://c1xol3wby2j0k" path="res://Instances/Prefabs/level_bg.tscn" id="2_dysr4"]
 [ext_resource type="PackedScene" uid="uid://dwavjbyw0v12l" path="res://Instances/Prefabs/tile_map.tscn" id="3_i7rh1"]
@@ -73,6 +73,7 @@ script = ExtResource("1_f5yfw")
 level_music = ExtResource("2_8mqfk")
 autumn_music = ExtResource("3_y057c")
 camera_left_end_position = 4032
+camera_top_end_position = -284
 
 [node name="LevelBG" parent="." instance=ExtResource("2_dysr4")]
 main_texture = ExtResource("4_2gskm")
@@ -83,7 +84,7 @@ layer_1/tile_data = PackedInt32Array(-524254, 65546, 2, -524255, 10, 2, -524252,
 
 [node name="Player" parent="." instance=ExtResource("4_2ky80")]
 material = SubResource("ShaderMaterial_iamp2")
-position = Vector2(0, -48)
+position = Vector2(0, -49)
 camera_down = true
 
 [node name="Water" parent="." instance=ExtResource("6_str38")]

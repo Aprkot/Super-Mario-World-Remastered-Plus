@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://dgfqcnl2vqt3l"]
+[gd_scene load_steps=30 format=3 uid="uid://dgfqcnl2vqt3l"]
 
 [ext_resource type="Script" uid="uid://k72dmo2yqq6n" path="res://Scripts/Classes/LevelClass.gd" id="1_gy33h"]
 [ext_resource type="AudioStream" uid="uid://bri2wlqh6tcj3" path="res://Resources/MusicTracks/Athletic.tres" id="2_l60lg"]
@@ -9,7 +9,6 @@
 [ext_resource type="PackedScene" uid="uid://dwavjbyw0v12l" path="res://Instances/Prefabs/tile_map.tscn" id="7_rxhwc"]
 [ext_resource type="PackedScene" uid="uid://be68yx0gtbtig" path="res://Instances/Prefabs/Enemies/koopa_troopa.tscn" id="9_2oxng"]
 [ext_resource type="PackedScene" uid="uid://c8kxuerbuqk7p" path="res://Instances/Prefabs/goal_post.tscn" id="10_fywgy"]
-[ext_resource type="PackedScene" uid="uid://bl7327rqgskw7" path="res://Instances/Prefabs/Blocks/empty_block.tscn" id="11_6yu5l"]
 [ext_resource type="PackedScene" uid="uid://cvdt1cn7f1g4w" path="res://Instances/Prefabs/Interactables/single_windmill_platform.tscn" id="12_ly8yr"]
 [ext_resource type="PackedScene" uid="uid://dm7exbyvtd2fw" path="res://Instances/Prefabs/Blocks/spin_block.tscn" id="12_mlb80"]
 [ext_resource type="PackedScene" uid="uid://dmie715ocubk5" path="res://Instances/Parts/vine_plant.tscn" id="13_xopu5"]
@@ -76,6 +75,7 @@ script = ExtResource("1_gy33h")
 level_music = ExtResource("2_l60lg")
 autumn_music = ExtResource("3_rqnpx")
 camera_left_end_position = 6080
+camera_top_end_position = -384
 
 [node name="LevelBG" parent="." instance=ExtResource("2_w1lpu")]
 main_texture = ExtResource("4_cqu5o")
@@ -240,9 +240,6 @@ position = Vector2(4776, -176)
 [node name="CollisionShape2D" parent="GoalPost/Area2D" index="0"]
 position = Vector2(20, -72)
 shape = SubResource("RectangleShape2D_hx5gu")
-
-[node name="EmptyBlock" parent="." instance=ExtResource("11_6yu5l")]
-position = Vector2(4584, -376)
 
 [node name="SpinBlock" parent="." instance=ExtResource("12_mlb80")]
 position = Vector2(4584, -56)
