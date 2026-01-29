@@ -6,6 +6,9 @@ This is a fork of Super Mario World Remastered that adds some extra stuff to the
 Note that this game is still very buggy since I lack the proper coding skills to truly polish it.
 
 
+If you want a truly polished version of this game, I would recommend the SMW Widescreen Patch https://github.com/VitorVilela7/wide-snes 
+You can also find some extra patches at https://www.smwcentral.net/?p=section&s=smwpatches
+
 
 ### Download: https://github.com/Boswer811/Super-Mario-World-Remastered-Plus/releases
 
@@ -60,6 +63,7 @@ Note that this game is still very buggy since I lack the proper coding skills to
 
 
 ### You are more than welcome to fork the repository and release new content / fixes as you wish.
+
 
 
 
