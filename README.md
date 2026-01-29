@@ -2,7 +2,8 @@
 
 
 
-This is a fork of Super Mario World Remastered that adds some extra stuff to the game
+This is a fork of Super Mario World Remastered that adds some extra stuff to the game.
+Note that this game is still very buggy since I lack the proper coding skills to truly polish it.
 
 
 
@@ -36,6 +37,8 @@ This is a fork of Super Mario World Remastered that adds some extra stuff to the
 
 - Completely Open Source
 
+## Issues
+- You cannot remap controls since This is something i simply do not have the skills to add, (YOU CAN GET AROUND THIS BY PLAYING THE GAME THROUGH STEAM AND REMAPPING KEYS / BUTTONS THROUGH STEAM INPUT)
 
 
 ## Downloading
@@ -57,6 +60,7 @@ This is a fork of Super Mario World Remastered that adds some extra stuff to the
 
 
 ### You are more than welcome to fork the repository and release new content / fixes as you wish.
+
 
 
 
