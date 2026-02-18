@@ -12,11 +12,10 @@ You are more than welcome to fork the repository and edit it as you wish.
 
 Thank you for supporting this project. It truly means a lot to me.
 
-### Download: https://github.com/Boswer811/Super-Mario-World-Remastered-Plus/releases
-
 
 
 # Requires an original SMW SNES ROM to play! (Not All-Stars +SMW or SMA2)
+### Download: https://github.com/Boswer811/Super-Mario-World-Remastered-Plus/releases
 
 
 
@@ -61,6 +60,7 @@ Thank you for supporting this project. It truly means a lot to me.
 4. Extract and run
 
 5. Enjoy!
+
 
 
 
