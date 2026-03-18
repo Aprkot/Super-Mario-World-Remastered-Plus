@@ -351,17 +351,17 @@ main_sprite_frames = SubResource("SpriteFrames_nxh6r")
 sky_colour = Color(0, 0, 0, 1)
 
 [node name="SkyLayer" parent="." index="0"]
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="SkyColor" parent="SkyLayer" index="1"]
 color = Color(0, 0, 0, 1)
 
 [node name="RainLayer" parent="." index="1"]
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="MainBGLayer" parent="." index="2"]
 visible = false
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="MainTexture" parent="MainBGLayer" index="0"]
 visible = false
@@ -372,7 +372,7 @@ visible = false
 texture_repeat = 3
 sprite_frames = SubResource("SpriteFrames_nxh6r")
 animation = &"Layer1a"
-frame_progress = 0.0231736
+frame_progress = 0.0778095
 
 [node name="AnimatedSpriteLayer" parent="MainBGLayer" index="2"]
 visible = false
@@ -385,7 +385,7 @@ scroll_scale = Vector2(0.05, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer10" index="0"]
 visibility_layer = 512
@@ -403,7 +403,7 @@ scroll_scale = Vector2(0.15, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer9" index="0"]
 visibility_layer = 512
@@ -421,7 +421,7 @@ scroll_scale = Vector2(0.4, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer8" index="0"]
 visibility_layer = 512
@@ -435,11 +435,11 @@ centered = false
 [node name="MainBGLayer7" type="Parallax2D" parent="." index="6"]
 visibility_layer = 512
 z_index = -50
-scroll_scale = Vector2(0.58, 1)
+scroll_scale = Vector2(0.51, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer7" index="0"]
 visibility_layer = 512
@@ -453,11 +453,11 @@ centered = false
 [node name="MainBGLayer6" type="Parallax2D" parent="." index="7"]
 visibility_layer = 512
 z_index = -50
-scroll_scale = Vector2(0.6, 1)
+scroll_scale = Vector2(0.53, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer6" index="0"]
 visibility_layer = 512
@@ -471,11 +471,11 @@ centered = false
 [node name="MainBGLayer5" type="Parallax2D" parent="." index="8"]
 visibility_layer = 512
 z_index = -50
-scroll_scale = Vector2(0.62, 1)
+scroll_scale = Vector2(0.6, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer5" index="0"]
 visibility_layer = 512
@@ -489,11 +489,11 @@ centered = false
 [node name="MainBGLayer4" type="Parallax2D" parent="." index="9"]
 visibility_layer = 512
 z_index = -50
-scroll_scale = Vector2(0.64, 1)
+scroll_scale = Vector2(0.62, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer4" index="0"]
 visibility_layer = 512
@@ -511,7 +511,7 @@ scroll_scale = Vector2(0.66, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer3" index="0"]
 visibility_layer = 512
@@ -529,7 +529,7 @@ scroll_scale = Vector2(0.68, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer2" index="0"]
 visibility_layer = 512
@@ -547,7 +547,7 @@ scroll_scale = Vector2(0.7, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer1" index="0"]
 visibility_layer = 512
@@ -559,19 +559,19 @@ autoplay = "Layer1a"
 centered = false
 
 [node name="MainFGLayer" parent="." index="13"]
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="MainTexture" parent="MainFGLayer" index="0"]
 texture_repeat = 3
 
 [node name="FGLayer" parent="." index="14"]
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="Texture" parent="FGLayer" index="0"]
 texture_repeat = 3
 
 [node name="SnowLayer" parent="." index="18"]
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
 
 [node name="LeafLayer" parent="." index="19"]
-screen_offset = Vector2(-243007, -35901.4)
+screen_offset = Vector2(-123.172, -108.573)
