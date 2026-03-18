@@ -1,41 +1,347 @@
-[gd_scene load_steps=8 format=3 uid="uid://t033dlch5h64"]
+[gd_scene load_steps=53 format=3 uid="uid://t033dlch5h64"]
 
 [ext_resource type="PackedScene" uid="uid://c1xol3wby2j0k" path="res://Instances/Prefabs/level_bg.tscn" id="1_rwscf"]
-[ext_resource type="Texture2D" uid="uid://cbllbsvb61cup" path="res://Assets/Sprites/Backgrounds/Underground/BG1.png" id="2_8m015"]
+[ext_resource type="Texture2D" uid="uid://crndbtk05qkfw" path="res://Assets/Sprites/Backgrounds/Underground/BG1b.png" id="2_woydv"]
+[ext_resource type="Texture2D" uid="uid://dxftf5nra60nk" path="res://Assets/Sprites/Backgrounds/Underground/BG1a.png" id="2_xcc3h"]
+[ext_resource type="Texture2D" uid="uid://be33i0k8go326" path="res://Assets/Sprites/Backgrounds/Underground/BG1c.png" id="3_5ngno"]
+[ext_resource type="Texture2D" uid="uid://cu8g4afvumpd3" path="res://Assets/Sprites/Backgrounds/Underground/BG1ab.png" id="3_qyt01"]
+[ext_resource type="Texture2D" uid="uid://kcgjdljhh42l" path="res://Assets/Sprites/Backgrounds/Underground/BG1ad.png" id="5_3knhg"]
+[ext_resource type="Texture2D" uid="uid://cpbagakygn0pf" path="res://Assets/Sprites/Backgrounds/Underground/BG1ae.png" id="5_hmxs5"]
+[ext_resource type="Texture2D" uid="uid://7hgwt4pkgboa" path="res://Assets/Sprites/Backgrounds/Underground/BG1af.png" id="6_3knhg"]
+[ext_resource type="Texture2D" uid="uid://cwgh7aor0gmik" path="res://Assets/Sprites/Backgrounds/Underground/BG1e.png" id="6_qyt01"]
+[ext_resource type="Texture2D" uid="uid://br84t422d2cvh" path="res://Assets/Sprites/Backgrounds/Underground/BG1ag.png" id="7_arps3"]
+[ext_resource type="Texture2D" uid="uid://bbeae6dt4m60r" path="res://Assets/Sprites/Backgrounds/Underground/BG1ah.png" id="8_r682c"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_phg24"]
-atlas = ExtResource("2_8m015")
+[sub_resource type="AtlasTexture" id="AtlasTexture_0l2r4"]
+atlas = ExtResource("3_qyt01")
 region = Rect2(0, 0, 512, 432)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_wj073"]
-atlas = ExtResource("2_8m015")
+[sub_resource type="AtlasTexture" id="AtlasTexture_vqhe5"]
+atlas = ExtResource("3_qyt01")
 region = Rect2(512, 0, 512, 432)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_715il"]
-atlas = ExtResource("2_8m015")
+[sub_resource type="AtlasTexture" id="AtlasTexture_y5cdy"]
+atlas = ExtResource("3_qyt01")
 region = Rect2(1024, 0, 512, 432)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_d6anh"]
-atlas = ExtResource("2_8m015")
+[sub_resource type="AtlasTexture" id="AtlasTexture_l2fne"]
+atlas = ExtResource("3_qyt01")
 region = Rect2(1536, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kyo06"]
+atlas = ExtResource("2_xcc3h")
+region = Rect2(0, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d3ckj"]
+atlas = ExtResource("2_xcc3h")
+region = Rect2(512, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ahvx"]
+atlas = ExtResource("2_xcc3h")
+region = Rect2(1024, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lacyo"]
+atlas = ExtResource("2_xcc3h")
+region = Rect2(1536, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yae6y"]
+atlas = ExtResource("5_3knhg")
+region = Rect2(0, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jdjw1"]
+atlas = ExtResource("5_3knhg")
+region = Rect2(512, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wspqi"]
+atlas = ExtResource("5_3knhg")
+region = Rect2(1024, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0hn8"]
+atlas = ExtResource("5_3knhg")
+region = Rect2(1536, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cg5tx"]
+atlas = ExtResource("5_hmxs5")
+region = Rect2(0, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wejjv"]
+atlas = ExtResource("5_hmxs5")
+region = Rect2(512, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j5eom"]
+atlas = ExtResource("5_hmxs5")
+region = Rect2(1024, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hsaif"]
+atlas = ExtResource("5_hmxs5")
+region = Rect2(1536, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ylcnn"]
+atlas = ExtResource("6_3knhg")
+region = Rect2(0, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v8snx"]
+atlas = ExtResource("6_3knhg")
+region = Rect2(512, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lrabu"]
+atlas = ExtResource("6_3knhg")
+region = Rect2(1024, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vylf4"]
+atlas = ExtResource("6_3knhg")
+region = Rect2(1536, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_boqat"]
+atlas = ExtResource("7_arps3")
+region = Rect2(0, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o6m23"]
+atlas = ExtResource("7_arps3")
+region = Rect2(512, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ahctr"]
+atlas = ExtResource("7_arps3")
+region = Rect2(1024, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8t71b"]
+atlas = ExtResource("7_arps3")
+region = Rect2(1536, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w6m8t"]
+atlas = ExtResource("8_r682c")
+region = Rect2(0, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7rsox"]
+atlas = ExtResource("8_r682c")
+region = Rect2(512, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oh850"]
+atlas = ExtResource("8_r682c")
+region = Rect2(1024, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8f487"]
+atlas = ExtResource("8_r682c")
+region = Rect2(1536, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qyt01"]
+atlas = ExtResource("2_woydv")
+region = Rect2(0, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k2ree"]
+atlas = ExtResource("2_woydv")
+region = Rect2(512, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmxs5"]
+atlas = ExtResource("2_woydv")
+region = Rect2(1024, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3knhg"]
+atlas = ExtResource("2_woydv")
+region = Rect2(1536, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6twpb"]
+atlas = ExtResource("6_qyt01")
+region = Rect2(0, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2rmjs"]
+atlas = ExtResource("6_qyt01")
+region = Rect2(512, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uga5x"]
+atlas = ExtResource("6_qyt01")
+region = Rect2(1024, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i8eux"]
+atlas = ExtResource("6_qyt01")
+region = Rect2(1536, 0, 512, 432)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_arps3"]
+atlas = ExtResource("3_5ngno")
+region = Rect2(0, 0, 512, 419)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r682c"]
+atlas = ExtResource("3_5ngno")
+region = Rect2(512, 0, 512, 419)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b4me4"]
+atlas = ExtResource("3_5ngno")
+region = Rect2(1024, 0, 512, 419)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2nl46"]
+atlas = ExtResource("3_5ngno")
+region = Rect2(1536, 0, 512, 419)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_nxh6r"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_phg24")
+"texture": SubResource("AtlasTexture_0l2r4")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_wj073")
+"texture": SubResource("AtlasTexture_vqhe5")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_715il")
+"texture": SubResource("AtlasTexture_y5cdy")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_d6anh")
+"texture": SubResource("AtlasTexture_l2fne")
 }],
 "loop": true,
-"name": &"default",
+"name": &"Layer1a",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kyo06")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d3ckj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ahvx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lacyo")
+}],
+"loop": true,
+"name": &"Layer1b",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yae6y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jdjw1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wspqi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0hn8")
+}],
+"loop": true,
+"name": &"Layer1c",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cg5tx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wejjv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j5eom")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hsaif")
+}],
+"loop": true,
+"name": &"Layer2a",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ylcnn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v8snx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lrabu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vylf4")
+}],
+"loop": true,
+"name": &"Layer2b",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_boqat")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o6m23")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ahctr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8t71b")
+}],
+"loop": true,
+"name": &"Layer3a",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w6m8t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7rsox")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oh850")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8f487")
+}],
+"loop": true,
+"name": &"Layer3b",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qyt01")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k2ree")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmxs5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3knhg")
+}],
+"loop": true,
+"name": &"Layer4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6twpb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2rmjs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uga5x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i8eux")
+}],
+"loop": true,
+"name": &"Layer5a",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_arps3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r682c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b4me4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2nl46")
+}],
+"loop": true,
+"name": &"Layer5b",
 "speed": 5.0
 }]
 
@@ -45,43 +351,227 @@ main_sprite_frames = SubResource("SpriteFrames_nxh6r")
 sky_colour = Color(0, 0, 0, 1)
 
 [node name="SkyLayer" parent="." index="0"]
-screen_offset = Vector2(-165, -110)
+screen_offset = Vector2(-243007, -35901.4)
 
 [node name="SkyColor" parent="SkyLayer" index="1"]
 color = Color(0, 0, 0, 1)
 
 [node name="RainLayer" parent="." index="1"]
-screen_offset = Vector2(-165, -110)
+screen_offset = Vector2(-243007, -35901.4)
 
 [node name="MainBGLayer" parent="." index="2"]
-screen_offset = Vector2(-165, -110)
+visible = false
+screen_offset = Vector2(-243007, -35901.4)
 
 [node name="MainTexture" parent="MainBGLayer" index="0"]
 visible = false
 texture_repeat = 3
 
 [node name="AnimatedMainTexture" parent="MainBGLayer" index="1"]
+visible = false
 texture_repeat = 3
 sprite_frames = SubResource("SpriteFrames_nxh6r")
-frame_progress = 0.988382
+animation = &"Layer1a"
+frame_progress = 0.0231736
 
 [node name="AnimatedSpriteLayer" parent="MainBGLayer" index="2"]
+visible = false
 texture_repeat = 3
 
-[node name="MainFGLayer" parent="." index="3"]
-screen_offset = Vector2(-165, -110)
+[node name="MainBGLayer10" type="Parallax2D" parent="." index="3"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.05, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer10" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer5b"
+autoplay = "Layer5b"
+centered = false
+
+[node name="MainBGLayer9" type="Parallax2D" parent="." index="4"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.15, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer9" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer5a"
+autoplay = "Layer5a"
+centered = false
+
+[node name="MainBGLayer8" type="Parallax2D" parent="." index="5"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.4, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer8" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer4"
+autoplay = "Layer4"
+centered = false
+
+[node name="MainBGLayer7" type="Parallax2D" parent="." index="6"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.58, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer7" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer3b"
+autoplay = "Layer3b"
+centered = false
+
+[node name="MainBGLayer6" type="Parallax2D" parent="." index="7"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.6, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer6" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer3a"
+autoplay = "Layer3a"
+centered = false
+
+[node name="MainBGLayer5" type="Parallax2D" parent="." index="8"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.62, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer5" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer2b"
+autoplay = "Layer2b"
+centered = false
+
+[node name="MainBGLayer4" type="Parallax2D" parent="." index="9"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.64, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer4" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer2b"
+autoplay = "Layer2a"
+centered = false
+
+[node name="MainBGLayer3" type="Parallax2D" parent="." index="10"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.66, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer3" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer1c"
+autoplay = "Layer1c"
+centered = false
+
+[node name="MainBGLayer2" type="Parallax2D" parent="." index="11"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.68, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer2" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer1b"
+autoplay = "Layer1b"
+centered = false
+
+[node name="MainBGLayer1" type="Parallax2D" parent="." index="12"]
+visibility_layer = 512
+z_index = -50
+scroll_scale = Vector2(0.7, 1)
+scroll_offset = Vector2(0, -384)
+repeat_size = Vector2(512, 0)
+repeat_times = 32
+screen_offset = Vector2(-243007, -35901.4)
+
+[node name="AnimatedMainTexture" type="AnimatedSprite2D" parent="MainBGLayer1" index="0"]
+visibility_layer = 512
+z_index = 8
+texture_repeat = 3
+sprite_frames = SubResource("SpriteFrames_nxh6r")
+animation = &"Layer1a"
+autoplay = "Layer1a"
+centered = false
+
+[node name="MainFGLayer" parent="." index="13"]
+screen_offset = Vector2(-243007, -35901.4)
 
 [node name="MainTexture" parent="MainFGLayer" index="0"]
 texture_repeat = 3
 
-[node name="FGLayer" parent="." index="4"]
-screen_offset = Vector2(-165, -110)
+[node name="FGLayer" parent="." index="14"]
+screen_offset = Vector2(-243007, -35901.4)
 
 [node name="Texture" parent="FGLayer" index="0"]
 texture_repeat = 3
 
-[node name="SnowLayer" parent="." index="8"]
-screen_offset = Vector2(-165, -110)
+[node name="SnowLayer" parent="." index="18"]
+screen_offset = Vector2(-243007, -35901.4)
 
-[node name="LeafLayer" parent="." index="9"]
-screen_offset = Vector2(-165, -110)
+[node name="LeafLayer" parent="." index="19"]
+screen_offset = Vector2(-243007, -35901.4)

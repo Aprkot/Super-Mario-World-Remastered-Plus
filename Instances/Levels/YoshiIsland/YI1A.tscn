@@ -131,6 +131,9 @@ position = Vector2(344, -56)
 position = Vector2(328, -16)
 
 [node name="OverworldBG" parent="." instance=ExtResource("11_2x5ox")]
+visible = false
+
+[node name="Underground" parent="." instance=ExtResource("11_2x5ox")]
 
 [node name="GBALevelNode" type="Node" parent="." node_paths=PackedStringArray("nodes_to_delete")]
 script = ExtResource("9_xk68j")

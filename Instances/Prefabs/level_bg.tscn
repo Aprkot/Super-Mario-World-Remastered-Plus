@@ -1,6 +1,6 @@
 [gd_scene load_steps=22 format=3 uid="uid://c1xol3wby2j0k"]
 
-[ext_resource type="Script" path="res://Scripts/LevelElements/StaticBG.gd" id="1_lrqve"]
+[ext_resource type="Script" uid="uid://b6gubysj6s51t" path="res://Scripts/LevelElements/StaticBG.gd" id="1_lrqve"]
 [ext_resource type="Texture2D" uid="uid://crbjluupvxjmt" path="res://Assets/Sprites/Overworld/BG1.png" id="2_mtemm"]
 [ext_resource type="AudioStream" uid="uid://b078o78lrk41f" path="res://Assets/Audio/SFX/encore_rain.mp3" id="4_lqcdg"]
 [ext_resource type="AudioStream" uid="uid://dlmavmni76o5u" path="res://Assets/Audio/SFX/thunder.wav" id="4_xevh5"]
@@ -56,8 +56,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_f8wh1"]
 _data = {
-"RESET": SubResource("Animation_k1fi5"),
-"thunder": SubResource("Animation_k05jf")
+&"RESET": SubResource("Animation_k1fi5"),
+&"thunder": SubResource("Animation_k05jf")
 }
 
 [sub_resource type="Shader" id="Shader_se7tj"]
@@ -150,7 +150,7 @@ anim_offset_max = 1.0
 turbulence_noise_strength = 0.0
 turbulence_noise_scale = 0.0
 
-[node name="LevelBG" type="Node2D"]
+[node name="LevelBG2" type="Node2D"]
 visibility_layer = 512
 script = ExtResource("1_lrqve")
 main_texture = ExtResource("2_mtemm")
@@ -162,7 +162,7 @@ visibility_layer = 512
 z_index = -55
 repeat_size = Vector2(512, 1536)
 repeat_times = 32
-screen_offset = Vector2(-568, -499.498)
+screen_offset = Vector2(-715.512, -477.298)
 
 [node name="ThunderFlash" type="ColorRect" parent="SkyLayer"]
 auto_translate_mode = 1
@@ -174,7 +174,7 @@ metadata/_edit_use_anchors_ = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SkyLayer/ThunderFlash"]
 libraries = {
-"": SubResource("AnimationLibrary_f8wh1")
+&"": SubResource("AnimationLibrary_f8wh1")
 }
 
 [node name="ThunderSFX" type="AudioStreamPlayer" parent="SkyLayer/ThunderFlash"]
@@ -205,7 +205,7 @@ visible = false
 visibility_layer = 512
 repeat_size = Vector2(1024, 864)
 repeat_times = 32
-screen_offset = Vector2(-568, -499.498)
+screen_offset = Vector2(-715.512, -477.298)
 
 [node name="RainTexture" type="TextureRect" parent="RainLayer"]
 modulate = Color(1, 1, 1, 0.392157)
@@ -224,7 +224,7 @@ offset_bottom = 864.0
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="RainLayer/ThunderFlash"]
 libraries = {
-"": SubResource("AnimationLibrary_f8wh1")
+&"": SubResource("AnimationLibrary_f8wh1")
 }
 
 [node name="ThunderSFX" type="AudioStreamPlayer" parent="RainLayer/ThunderFlash"]
@@ -238,7 +238,7 @@ scroll_scale = Vector2(0.7, 1)
 scroll_offset = Vector2(0, -384)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-568, -499.498)
+screen_offset = Vector2(-715.512, -477.298)
 
 [node name="MainTexture" type="Sprite2D" parent="MainBGLayer"]
 light_mask = 0
@@ -265,7 +265,7 @@ z_index = 10
 scroll_offset = Vector2(0, -192)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-568, -499.498)
+screen_offset = Vector2(-715.512, -477.298)
 
 [node name="MainTexture" type="Sprite2D" parent="MainFGLayer"]
 light_mask = 0
@@ -279,7 +279,7 @@ z_index = 10
 scroll_offset = Vector2(0, -279)
 repeat_size = Vector2(512, 0)
 repeat_times = 32
-screen_offset = Vector2(-568, -499.498)
+screen_offset = Vector2(-715.512, -477.298)
 
 [node name="Texture" type="Sprite2D" parent="FGLayer"]
 visibility_layer = 512
@@ -306,16 +306,16 @@ z_index = 10
 scroll_offset = Vector2(0, -304)
 repeat_size = Vector2(240, 609)
 repeat_times = 32
-screen_offset = Vector2(-568, -499.498)
+screen_offset = Vector2(-715.512, -477.298)
 
 [node name="SnowParticles" type="GPUParticles2D" parent="SnowLayer"]
 z_index = -9
 position = Vector2(2296, 1728)
 amount = 64
-process_material = SubResource("ParticleProcessMaterial_eh2su")
 texture = ExtResource("5_xqu78")
 lifetime = 10.0
 preprocess = 10.0
+process_material = SubResource("ParticleProcessMaterial_eh2su")
 
 [node name="LeafLayer" type="Parallax2D" parent="."]
 process_mode = 3
@@ -325,18 +325,18 @@ z_index = 10
 scroll_offset = Vector2(-1920, -270)
 repeat_size = Vector2(480, 270)
 repeat_times = 8
-screen_offset = Vector2(-568, -499.498)
+screen_offset = Vector2(-715.512, -477.298)
 
 [node name="LeafParticles" type="GPUParticles2D" parent="LeafLayer"]
 z_index = -9
 material = SubResource("CanvasItemMaterial_dq2an")
 amount = 16
-process_material = SubResource("ParticleProcessMaterial_goavy")
 texture = ExtResource("7_1x82a")
 lifetime = 10.0
 preprocess = 10.0
 randomness = 1.0
 visibility_rect = Rect2(0, 0, 0, 0)
+process_material = SubResource("ParticleProcessMaterial_goavy")
 
 [node name="Tint" type="CanvasModulate" parent="."]
 visible = false

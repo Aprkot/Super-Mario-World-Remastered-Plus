@@ -1,7 +1,7 @@
-[gd_scene load_steps=14 format=3 uid="uid://bmvrmeaxlcyaj"]
+[gd_scene load_steps=9 format=3 uid="uid://bmvrmeaxlcyaj"]
 
 [ext_resource type="PackedScene" uid="uid://t033dlch5h64" path="res://Instances/Parts/BGs/underground_bg.tscn" id="1_iqyse"]
-[ext_resource type="Script" path="res://Scripts/LevelElements/autumn_level_bg.gd" id="2_b44uh"]
+[ext_resource type="Script" uid="uid://bg121ynyfou4s" path="res://Scripts/LevelElements/autumn_level_bg.gd" id="2_b44uh"]
 [ext_resource type="Texture2D" uid="uid://dmmu176u6kdto" path="res://Assets/Sprites/Backgrounds/Underground/BGAutumn.png" id="3_f51tb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_i703v"]
@@ -40,67 +40,44 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_rbkhv"]
-atlas = ExtResource("3_f51tb")
-region = Rect2(0, 0, 512, 432)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_fkj26"]
-atlas = ExtResource("3_f51tb")
-region = Rect2(512, 0, 512, 432)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_i73c5"]
-atlas = ExtResource("3_f51tb")
-region = Rect2(1024, 0, 512, 432)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_cqjap"]
-atlas = ExtResource("3_f51tb")
-region = Rect2(1536, 0, 512, 432)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_ms1jw"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_rbkhv")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_fkj26")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_i73c5")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_cqjap")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
-
 [node name="LevelBG" instance=ExtResource("1_iqyse")]
 script = ExtResource("2_b44uh")
 main_sprite_frames = SubResource("SpriteFrames_qrstk")
 
 [node name="SkyLayer" parent="." index="0"]
-screen_offset = Vector2(-168.75, -113.75)
+screen_offset = Vector2(-770.798, -919.904)
 
 [node name="RainLayer" parent="." index="1"]
-screen_offset = Vector2(-168.75, -113.75)
+screen_offset = Vector2(-770.798, -919.904)
 
 [node name="MainBGLayer" parent="." index="2"]
-screen_offset = Vector2(-168.75, -113.75)
+screen_offset = Vector2(-770.798, -919.904)
 
 [node name="AnimatedMainTexture" parent="MainBGLayer" index="1"]
-sprite_frames = SubResource("SpriteFrames_ms1jw")
-frame_progress = 0.921483
+sprite_frames = SubResource("SpriteFrames_qrstk")
+animation = &"default"
+frame_progress = 0.144534
 
-[node name="MainFGLayer" parent="." index="3"]
-screen_offset = Vector2(-168.75, -113.75)
+[node name="MainBGLayer4" parent="." index="3"]
+screen_offset = Vector2(-770.798, -919.904)
 
-[node name="FGLayer" parent="." index="4"]
-screen_offset = Vector2(-168.75, -113.75)
+[node name="MainBGLayer6" parent="." index="4"]
+screen_offset = Vector2(-770.798, -919.904)
 
-[node name="SnowLayer" parent="." index="8"]
-screen_offset = Vector2(-168.75, -113.75)
+[node name="MainBGLayer3" parent="." index="5"]
+screen_offset = Vector2(-770.798, -919.904)
 
-[node name="LeafLayer" parent="." index="9"]
-screen_offset = Vector2(-168.75, -113.75)
+[node name="MainBGLayer2" parent="." index="6"]
+screen_offset = Vector2(-770.798, -919.904)
+
+[node name="MainFGLayer" parent="." index="7"]
+screen_offset = Vector2(-770.798, -919.904)
+
+[node name="FGLayer" parent="." index="8"]
+screen_offset = Vector2(-770.798, -919.904)
+
+[node name="SnowLayer" parent="." index="12"]
+screen_offset = Vector2(-770.798, -919.904)
+
+[node name="LeafLayer" parent="." index="13"]
+screen_offset = Vector2(-770.798, -919.904)

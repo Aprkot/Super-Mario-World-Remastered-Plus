@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cge612j26d8ws"]
 
-[ext_resource type="Script" path="res://Scripts/LevelElements/autumn_level_bg.gd" id="1_4c5ui"]
+[ext_resource type="Script" uid="uid://bg121ynyfou4s" path="res://Scripts/LevelElements/autumn_level_bg.gd" id="1_4c5ui"]
 [ext_resource type="PackedScene" uid="uid://c1xol3wby2j0k" path="res://Instances/Prefabs/level_bg.tscn" id="1_dax75"]
 
 [sub_resource type="Shader" id="Shader_slw6q"]
@@ -34,26 +34,26 @@ script = ExtResource("1_4c5ui")
 
 [node name="SkyLayer" parent="." index="0"]
 scroll_offset = Vector2(-2048, -1536)
-screen_offset = Vector2(-1673.78, -292.11)
+screen_offset = Vector2(-522.651, -266.425)
 
 [node name="RainLayer" parent="." index="1"]
-screen_offset = Vector2(-1673.78, -292.11)
+screen_offset = Vector2(-522.651, -266.425)
 
 [node name="MainBGLayer" parent="." index="2"]
-screen_offset = Vector2(-1673.78, -292.11)
+visible = false
+screen_offset = Vector2(-522.651, -266.425)
 
 [node name="MainTexture" parent="MainBGLayer" index="0"]
 material = SubResource("ShaderMaterial_qn22y")
 
 [node name="MainFGLayer" parent="." index="3"]
-modulate = Color(1, 1, 1, 0.3)
-screen_offset = Vector2(-1673.78, -292.11)
+screen_offset = Vector2(-522.651, -266.425)
 
 [node name="FGLayer" parent="." index="4"]
-screen_offset = Vector2(-1673.78, -292.11)
+screen_offset = Vector2(-522.651, -266.425)
 
 [node name="SnowLayer" parent="." index="8"]
-screen_offset = Vector2(-1673.78, -292.11)
+screen_offset = Vector2(-522.651, -266.425)
 
 [node name="LeafLayer" parent="." index="9"]
-screen_offset = Vector2(-1673.78, -292.11)
+screen_offset = Vector2(-522.651, -266.425)
